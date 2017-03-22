@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="About">
+<meta http-equiv="Content-Language" content="">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<title>MadLab Biolab</title>
+<link rel="canonical" href="sphere.diybio.org/entries/labs/MadLabBiolab">
+<link rel="alternate" type="application/rss+xml" title="DIYbiosphere" href="sphere.diybio.org/feed.xml">
+<!-- Semantic UI --><link rel="stylesheet" type="text/css" href="/semantic/dist/semantic.min.css">
+<!-- FONTS --><link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/3.5.0/octicons.min.css">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/cc-icons/1.2.1/css/cc-icons.min.css">
+<script src="https://use.fontawesome.com/2e5ba52749.js"></script><link type="text/css" rel="stylesheet" href="/assets/css/main.css">
+<!-- Begin Jekyll SEO tag v2.1.0 --><title>MadLab Biolab - DIYbiosphere</title>
+<meta property="og:title" content="MadLab Biolab">
+<meta name="description" content="About">
+<meta property="og:description" content="About">
+<link rel="canonical" href="sphere.diybio.org/entries/labs/MadLabBiolab">
+<meta property="og:url" content="sphere.diybio.org/entries/labs/MadLabBiolab">
+<meta property="og:site_name" content="DIYbiosphere">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2017-03-22T00:04:34+00:00">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@DIYbiosphere">
+<script type="application/ld+json">
+{"@context": "http://schema.org",
+"@type": "BlogPosting",
+"headline": "MadLab Biolab",
+"datePublished": "2017-03-22T00:04:34+00:00",
+"description": "About",
+"url": "sphere.diybio.org/entries/labs/MadLabBiolab"}</script><!-- End Jekyll SEO tag --><!-- Google analytics tracking code --><script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-78642734-1', 'auto');
+    ga('send', 'pageview');
+  </script><!-- Leaflet --><!--<link rel="stylesheet" type="text/css" href="https://unpkg.com/leaflet@1.0.2/dist/leaflet.css"  />--><!-- Mapbox --><link href="https://api.mapbox.com/mapbox.js/v3.0.1/mapbox.css" rel="stylesheet">
+<!-- Algolia InstantSearch --><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/instantsearch.js/1/instantsearch.min.css">
+<!-- Algolia DocSearch -->
+</head>
+<body class="Site">
+
+    <header><nav><div class="ui one column grid">
+      <!-- navigation bar for large screens-->
+      <div class="column tablet computer only">
+        <div class="ui huge fixed borderless menu">
+          <div class="ui container">
+            <!-- logo -->
+            <div class="item">
+              <a href="/">
+              <img class="ui image" src="/assets/img/sphere-logo-alpha.png"></a>
+            </div>
+            <!-- right menu -->
+            <div class="right menu">
+              
+              <div class="item">
+                <div class="ui transparent right icon input">
+                  <input type="search" placeholder="Quick Search" data-algolia-search="true"><i class="search icon"></i>
+                </div>
+              </div>
+              
+              <div class="ui dropdown item">
+                <b>FIND</b>
+                <i class="angle down icon"></i>
+                <div class="menu">
+                  <a class="item" href="/entries/"><i class="list layout icon"></i>All</a>
+                  <div class="divider"></div>
+                  <div class="header">By Collection</div>
+                  <a class="item" href="/entries/?q=&amp;hPP=3&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=project&amp;is_v=1"><i class="travel icon"></i> Projects</a>
+                  <a class="item" href="/entries/?q=&amp;hPP=3&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=startup&amp;is_v=1"><i class="rocket icon"></i> Startups </a>
+                  <a class="item" href=""><i class="lab icon"></i> Labs</a>
+                  <a class="item" href="/entries/?q=&amp;hPP=3&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=incubator&amp;is_v=1"><i class="leaf icon"></i> Incubators </a>
+                  <a class="item" href="/entries/?q=&amp;hPP=3&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=group&amp;is_v=1"><i class="users icon"></i> Groups</a>
+                  <a class="item" href="/entries/?q=&amp;hPP=3&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=network&amp;is_v=1"><i class="share alternate icon"></i> Networks </a>
+                  <a class="item" href="/entries/?q=&amp;hPP=3&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=event&amp;is_v=1"><i class="ticket icon"></i> Events</a>
+                  <a class="item" href="/entries/?q=&amp;hPP=3&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=other&amp;is_v=1"><i class="umbrella icon"></i> Others </a>
+                </div>
+              </div>
+
+              <div class="ui dropdown item">
+                <b>MAP</b>
+                <i class="angle down icon"></i>
+                <div class="menu">
+                  <a class="item" href="/maps/"><i class="marker icon"></i>All</a>
+                  <div class="divider"></div>
+                  <div class="header">By Collection</div>
+                  <a class="item" href="/maps/?q=&amp;hPP=3&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=project&amp;is_v=1"><i class="travel icon"></i> Projects</a>
+                  <a class="item" href="/maps/?q=&amp;hPP=3&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=startup&amp;is_v=1"><i class="rocket icon"></i> Startups </a>
+                  <a class="item" href=""><i class="lab icon"></i> Labs</a>
+                  <a class="item" href="/maps/?q=&amp;hPP=3&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=incubator&amp;is_v=1"><i class="leaf icon"></i> Incubators </a>
+                  <a class="item" href="/maps/?q=&amp;hPP=3&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=group&amp;is_v=1"><i class="users icon"></i> Groups</a>
+                  <a class="item" href="/maps/?q=&amp;hPP=3&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=network&amp;is_v=1"><i class="share alternate icon"></i> Networks </a>
+                  <a class="item" href="/maps/?q=&amp;hPP=3&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=event&amp;is_v=1"><i class="ticket icon"></i> Events</a>
+                  <a class="item" href="/maps/?q=&amp;hPP=3&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=other&amp;is_v=1"><i class="umbrella icon"></i> Others </a>
+                </div>
+              </div>
+
+              <div class="ui dropdown item">
+                <b>DO</b>
+                <i class="angle down icon"></i>
+                <div class="menu">
+                  <a class="item" href="/docs/tutorials/add-entry"><i class="plus icon"></i>Add Entry</a>
+                  <a class="item" href="/docs/tutorials/edit-content"><i class="write icon"></i>Edit Content</a>
+                  <a target="_blank" class="item" href="https://github.com/DIYbiosphere/sphere"><i class="github icon"></i>Contribute (repo)</a>
+                  <a class="item" href="/docs/"><i class="book icon"></i>Learn More (docs)</a>
+                  <a class="item" href="/support-us/"><i class="thumbs outline up icon"></i>Support Us</a>
+                </div>
+              </div>
+
+              <div class="ui dropdown item">
+                <b>ABOUT</b>
+                <i class="angle down icon"></i>
+                <div class="menu">
+                  <a class="item" href="/about/diybiosphere"><i class="info circle icon"></i>DIYbiosphere</a>
+                  <a class="item" href="/about/community"><i class="child icon"></i>Our Community</a>
+                  <a class="item" href="/about/philosophy"><i class="hand peace icon"></i>Philosophy</a>
+                  <a class="item" href="/about/contact"><i class="send icon"></i>Contact</a>
+                </div>
+              </div>
+
+              <!--<div class="ui dropdown item">
+                <b>DOCUMENTATION</b>
+                <i class="angle down icon"></i>
+                <div class="menu">
+                  <a class="item" href="/docs/introduction/"><i class="flag outline icon"></i> Introduction</a>
+                  <a class="item" href="/docs/about/"><i class="info circle icon"></i> About Us</a>
+                  <a class="item" href="/docs/copyright/"><i class="copyright icon"></i> Copyright </a>
+                  <a class="item" href="/docs/basics/"><i class="puzzle icon"></i> The Basics</a>
+                  <a class="item" href="/docs/guides/"><i class="life ring icon"></i> Support </a>
+                  <a class="item" href="/docs/tutorials/"><i class="book icon"></i> Tutorials</a>
+                  <a class="item" href="/docs/updates/"><i class="announcement icon"></i> Updates</a>
+                </div>
+              </div>-->
+
+              <a target="_blank" class="item" href="https://diybio.org"> <img class="image mini" src="https://diybiology.files.wordpress.com/2011/10/diybio-logo-black-90x60px.png"></a>
+            </div> <!-- end right menu -->
+          </div> <!-- end container -->
+        </div> <!-- end menu -->
+      </div> <!-- end column -->
+      <!-- navigation bar for mobile -->
+      <div class="column mobile only">
+        <div class="ui huge two item fixed borderless menu">
+          <div class="item">
+            <a href="/">
+              <img class="ui image" src="/assets/img/sphere-logo-alpha.png"></a>
+          </div>
+          <div class="ui dropdown icon item">
+            <i class="content icon"></i>
+              <div class="left menu fluid">
+                <div class="item">
+                  <div class="ui transparent right icon input">
+                    <input type="search" placeholder="Quick Search" data-algolia-search="true"><i class="search icon"></i>
+                  </div>
+                </div>
+
+                <div class="item">
+                <i class="left dropdown icon"></i>
+                <span class="text">FIND</span>
+                <div class="left menu">
+                  <a class="item" href="/entries/"><i class="list layout icon"></i>All</a>
+                  <div class="divider"></div>
+                  <div class="header">By Collection</div>
+                  <a class="item" href="/entries/?q=&amp;hPP=3&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=project&amp;is_v=1"><i class="travel icon"></i> Projects</a>
+                  <a class="item" href="/entries/?q=&amp;hPP=3&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=startup&amp;is_v=1"><i class="rocket icon"></i> Startups </a>
+                  <a class="item" href=""><i class="lab icon"></i> Labs</a>
+                  <a class="item" href="/entries/?q=&amp;hPP=3&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=incubator&amp;is_v=1"><i class="leaf icon"></i> Incubators </a>
+                  <a class="item" href="/entries/?q=&amp;hPP=3&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=group&amp;is_v=1"><i class="users icon"></i> Groups</a>
+                  <a class="item" href="/entries/?q=&amp;hPP=3&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=network&amp;is_v=1"><i class="share alternate icon"></i> Networks </a>
+                  <a class="item" href="/entries/?q=&amp;hPP=3&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=event&amp;is_v=1"><i class="ticket icon"></i> Events</a>
+                  <a class="item" href="/entries/?q=&amp;hPP=3&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=other&amp;is_v=1"><i class="umbrella icon"></i> Others </a>
+                </div>
+              </div>
+
+                <div class="item">
+                <i class="left dropdown icon"></i>
+                <span class="text">MAP</span>
+                <div class="left menu">
+                  <a class="item" href="/entries/"><i class="marker icon"></i>All</a>
+                  <div class="divider"></div>
+                  <div class="header">By Collection</div>
+                  <a class="item" href="/entries/?q=&amp;hPP=3&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=project&amp;is_v=1"><i class="travel icon"></i> Projects</a>
+                  <a class="item" href="/entries/?q=&amp;hPP=3&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=startup&amp;is_v=1"><i class="rocket icon"></i> Startups </a>
+                  <a class="item" href=""><i class="lab icon"></i> Labs</a>
+                  <a class="item" href="/entries/?q=&amp;hPP=3&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=incubator&amp;is_v=1"><i class="leaf icon"></i> Incubators </a>
+                  <a class="item" href="/entries/?q=&amp;hPP=3&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=group&amp;is_v=1"><i class="users icon"></i> Groups</a>
+                  <a class="item" href="/entries/?q=&amp;hPP=3&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=network&amp;is_v=1"><i class="share alternate icon"></i> Networks </a>
+                  <a class="item" href="/entries/?q=&amp;hPP=3&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=event&amp;is_v=1"><i class="ticket icon"></i> Events</a>
+                  <a class="item" href="/entries/?q=&amp;hPP=3&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=other&amp;is_v=1"><i class="umbrella icon"></i> Others </a>
+                </div>
+              </div>
+
+                <div class="item">
+                <i class="left dropdown icon"></i>
+                <span class="text">DO</span>
+                <div class="left menu">
+                  <a class="item" href="/docs/tutorials/add-entry"><i class="plus icon"></i>Add Entry</a>
+                  <a class="item" href="/docs/tutorials/edit-content"><i class="write icon"></i>Edit Content</a>
+                  <a target="_blank" class="item" href="https://github.com/DIYbiosphere/sphere"><i class="github icon"></i>Contribute (repo)</a>
+                  <a class="item" href="/docs/"><i class="book icon"></i>Learn More (docs)</a>
+                  <a class="item" href="/support-%60us/"><i class="thumbs outline up icon"></i>Support Us</a>
+                </div>
+              </div>
+
+                <div class="item">
+                <i class="left dropdown icon"></i>
+                <span class="text">ABOUT</span>
+                <div class="left menu">
+                  <a class="item" href="/about/diybiosphere"><i class="info circle icon"></i>DIYbiosphere</a>
+                  <a class="item" href="/about/community"><i class="child icon"></i>Our Community</a>
+                  <a class="item" href="/about/philosophy"><i class="hand peace icon"></i>Philosophy</a>
+                  <a class="item" href="/about/contact"><i class="send icon"></i>Contact</a>
+                </div>
+              </div>
+
+                <div class="divider"></div>
+
+                <a target="_blank" class="item" href="https://diybio.org"> <img class="image tiny" src="https://diybiology.files.wordpress.com/2011/10/diybio-logo-black-90x60px.png"></a>
+              </div> <!-- close  menu-->
+          </div> <!-- close dropdown menu item -->
+        </div> <!-- end menu -->
+      </div> <!-- end mobile column -->
+    </div> <!-- end grid -->
+  </nav></header><main class="Site-content xo margin top fivefold"><div class="ui grid container xo top padding">
+  <div class="sixteen wide column">
+      <div class="ui two column grid">
+
+    
+    <!-- Breadcrumb for Entries -->
+      <div class="column xo paddingless">
+        <div class="ui breadcrumb">
+          <a class="section" href="/entries/labs/">Labs</a>
+          <i class="right angle icon divider"></i>
+          <div class="active section">MadLab Biolab</div>
+        </div>
+      </div>
+
+    
+
+    <div class="column right aligned xo paddingless">
+      Latest commit: 20 Jan 2017
+    </div>
+
+
+    <div class="column xo padding top without middle aligned">
+      <i class="wait icon"></i>
+        
+        
+           1 min read
+        
+    </div>
+
+    <div class="column right aligned xo padding top without">
+      <div class="ui tiny compact borderless icon menu">
+        <a class="item" data-tooltip="Edit this page" data-position="bottom center" href="http://github.com/DIYbiosphere/sphere/blob/master/_labs/MadLabBiolab.md" target="_blank">
+          <i class="edit icon"></i>
+        </a>
+        <a class="item" data-tooltip="Submit a Bug Report" data-position="bottom center" href="https://github.com/DIYbiosphere/sphere/issues/new" target="_blank">
+          <i class="bug icon"></i>
+        </a>
+        <a class="item" data-tooltip="Select Language" data-position="bottom center">
+          <i class="world icon"></i>
+            <div class="ui inline dropdown">
+              <div class="text">EN</div>
+              <i class="dropdown icon"></i>
+              <div class="menu">
+                <div class="active item" data-text="EN">
+<i class="gb flag"></i>English</div>
+              </div>
+            </div>
+        </a>
+      </div>
+    </div>
+  </div> <!-- close grid -->
+
+    <article class="xo top padding twofold"><h1 class="ui header xo padding bottom">
+        MadLab Biolab
+        <div class="ui fitted divider"></div>
+        <div class="sub header"></div>
+      </h1>
+    </article><div>
+          <article><div class="ui basic segment right floated compact infobox">
+  <div class="ui segment">
+        <table id="infobox" class="ui very basic compact table"><tbody>
+<tr>
+<!-- Logo or Name of Page --><td colspan="2">
+              <h3>
+                <a class="noelink" href="https://madlab.org.uk/community-biotechnology/" target="_blank">
+                
+                  <h2 class="ui center aligned header">MadLab Biolab<h2>
+                </h2>
+</h2></a>
+                
+              </h3>
+            </td>
+          </tr>
+<!-- motto --><!-- Predecessor --><!-- Successor --><!-- start-date --><!-- End-Date --><!-- Type --><!-- Status --><!-- Purpose --><!-- Headquarters --><!-- Membership --><!-- Founders --><!-- Authors --><!-- Main organization --><!-- Parent organization --><!-- Affilliations --><!-- Budget --><!-- Num of staff --><!-- Num of volunteers --><!-- Location --><tr class="top aligned">
+<td>
+              <span data-tooltip="Established start-date">Location:</span>
+            </td>
+            <td>
+              <!-- Address -->
+              
+              36-40 Edge St <br><!-- City and country -->
+              
+              Manchester
+              
+              
+              <br> 
+              
+              United Kingdom
+              
+              
+            </td>
+          </tr>
+<!-- Tags --><tr>
+<td>
+              Keywords:
+            </td>
+            <td>
+              
+            </td>
+          </tr>
+</tbody></table>
+</div>
+  
+  <a href="https://madlab.org.uk/community-biotechnology/">
+    <button class="ui icon mini basic button" data-tooltip="Go to Homepage">
+      <i class="home icon"></i>
+    </button>
+  </a>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a href="https://twitter.com/madlabuk">
+    <button class="ui twitter icon mini button" data-tooltip="Follow on Twitter">
+      <i class="twitter icon"></i>
+    </button>
+  </a>
+
+
+
+  <a href="https://www.facebook.com/MadLabUK/">
+    <button class="ui facebook icon mini button" data-tooltip="Follow on Facebook">
+      <i class="facebook icon"></i>
+    </button>
+  </a>
+
+
+
+
+
+
+
+
+
+
+
+
+<!--  -->
+
+
+
+
+
+
+
+
+
+</div> <!-- close basic segment -->
+
+
+        <h2 id="about">About</h2>
+
+<h2 id="history">History</h2>
+
+
+      </article>
+</div>
+  </div>
+</div>
+
+      </main><footer><div class="ui padded grid xo top padding twofold">
+
+<!-- Buttons -->
+    <div class="ui divider"></div>
+
+    <div class="row xo top padding">
+      <div class="ui container center aligned">
+          <div class="ui horizontal list">
+            <div class="item">
+              <a href="https://github.com/DIYbiosphere/sphere"><img src="https://img.shields.io/github/stars/diybiosphere/sphere.svg?style=social&amp;label=Star&amp;maxAge=2592000" alt="Star diybiosphere/sphere!"></a>
+            </div>
+            <div class="item">
+              <a href="https://github.com/DIYbiosphere/sphere"><img src="https://img.shields.io/github/forks/diybiosphere/sphere.svg?style=social&amp;label=Fork&amp;maxAge=2592000" alt="Fork diybiosphere/sphere!"></a>
+            </div>
+            <div class="item">
+              <a href="https://gratipay.com/DIYbiosphere/"><img src="https://img.shields.io/gratipay/DIYbiosphere.svg?style=social&amp;label=Donate&amp;maxAge=2592000" alt="Donate to us!"></a>
+            </div>
+            <div class="item slackin">
+              <script src="https://diybiosphere.herokuapp.com/slackin.js" async defer></script>
+</div>
+            <div class="item">
+              <a href="https://twitter.com/DIYbiosphere"><img src="https://img.shields.io/twitter/follow/diybiosphere.svg?style=social&amp;label=Follow&amp;maxAge=2592000" alt="Follow @diybiosphere"></a>
+            </div>
+        </div>
+      </div> <!-- close grid container -->
+    </div> <!-- close row -->
+
+    <!-- Useful links -->
+    <div class="row border-footer" style="background-color: #F3F3F3;">
+      <div class="ui equal width relaxed grid container">
+        <div class="doubling six column row">
+          <!-- DIYbiosphere -->
+          <div class="column">
+            <div class="ui vertical text menu">
+              <div class="ui header item">DIYbiosphere</div>
+              <a class="item" href="/about/DIYbiosphere/">Project</a>
+              <a class="item" href="/about/community/">Community</a>
+              <a class="item" href="/about/philosophy/">Philosophy</a>
+            </div>
+          </div>
+          <!-- Contribute -->
+          <div class="column">
+            <div class="ui vertical text menu">
+              <div class="ui header item">Contribute</div>
+              <a class="item" href="/docs/tutorials/add-entry">Add a New Entry</a>
+              <a class="item" href="/docs/tutorials/edit-content">Edit an Entry</a>
+              <a target="_blank" class="item" href="https://github.com/DIYbiosphere/sphere/issues">Jump into our Issues</a>
+            </div>
+          </div>
+          <!-- Learn More -->
+          <div class="column">
+            <div class="ui vertical text menu">
+              <div class="ui header item">Learn More</div>
+              <a class="item" href="/docs/guides/contributing/">Contributing Guide</a>
+              <a class="item" href="/docs/guides/writing/">On Writing Entries</a>
+              <a class="item" href="/docs/guides/eli5/">For the GitHub Confused</a>
+            </div>
+          </div>
+          <!-- Connect -->
+          <div class="column">
+            <div class="ui vertical text menu">
+              <div class="ui header item">Connect with Us</div>
+              <a class="item" href="/docs/guides/contributing/#membership-request">Become a member!</a>
+              <a target="_blank" class="item" href="https://diybiosphere.herokuapp.com/">Join our Slack</a>
+              <a target="_blank" class="item" href="https://gitter.im/DIYbiosphere/sphere?utm_source=share-link&amp;utm_medium=link&amp;utm_campaign=share-link">Open Gitter Chat</a>
+            </div>
+          </div>
+          <!-- Supported by -->
+          <div class="column aligned ">
+            <div class="ui vertical text menu">
+              <div class="ui header item">Supported by</div>
+                <a target="_blank" class="item" href="https://diybio.org"><img class="ui image" src="/assets/img/diybio.png"></a>
+                <a target="_blank" class="item" href="http://www.unige.ch"><img class="ui image" src="/assets/img/unige.png"></a>
+              </div>
+          </div>
+          <!-- Coded with Github -->
+          <div class="two wide column right middle aligned">
+          <a target="_blank" class="item" href="https://github.com/DIYbiosphere/sphere"><img class="ui image" src="/assets/img/coded-and-powered.png"></a>
+        </div>
+        </div>
+      </div> <!-- close grid container -->
+    </div> <!-- close row -->
+
+    <!-- Legal footer -->
+    <div class="one column row" style="background-color: #F3F3F3;">
+      <!-- computer legal row -->
+      <div class="column computer only">
+        <div class="ui container">
+          <div class="ui small text stacking menu">
+            <a class="fitted item" rel="license" target="_blank" href="http://creativecommons.org/publicdomain/zero/1.0/"><i class="cc cc-cc"></i><i class="cc cc-zero"></i></a>
+            <a class="disabled active item">Except where</a>
+            <a href="/docs/tutorials/noting-copyright/" class="fitted item">otherwise noted</a>
+            <a class="active fitted item">, content on this site is dedicated to the public domain</a>
+            <div class="right menu">
+              <a class="item" href="/terms-of-use/">Terms of Use</a>
+              <a class="item" href="/contributor-terms/">Contributor Terms</a>
+              <a class="item" href="/code-of-conduct/">Code of Conduct</a>
+              <a class="item" href="/docs/help/faq/">FAQ</a>
+              <a class="item" href="/about/contact/">Contact</a>
+            </div>
+          </div>
+        </div> <!-- close grid container -->
+      </div>
+      <!-- tablet legal row -->
+      <div class="column tablet only">
+        <div class="ui grid container">
+          <div class="one column row">
+            <div class="column">
+              <div class="ui small text menu">
+                <a class="fitted item" rel="license" target="_blank" href="http://creativecommons.org/publicdomain/zero/1.0/"><i class="cc cc-cc"></i><i class="cc cc-zero"></i></a>
+                <a class="disabled active item">Except where</a>
+                <a href="/docs/tutorials/noting-copyright/" class="fitted item">otherwise noted</a>
+                <a class="active fitted item">, content on this site is dedicated to the public domain</a>
+              </div>
+              <div class="column">
+                <div class="ui small text right menu">
+                  <a class="item" href="/terms-of-use/">Terms of Use</a>
+                  <a class="item" href="/contributor-terms/">Contributor Terms</a>
+                  <a class="item" href="/code-of-conduct/">Code of Conduct</a>
+                  <a class="item" href="/docs/help/faq/">FAQ</a>
+                  <a class="item" href="/about/contact/">Contact</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> <!-- close grid container -->
+      </div>
+      <!-- mobile legal row -->
+      <div class="column mobile only">
+        <div class="ui grid container">
+          <div class="one column row">
+            <div class="column">
+              <div class="ui small text menu">
+                <a class="fitted item" rel="license" target="_blank" href="http://creativecommons.org/publicdomain/zero/1.0/"><i class="cc cc-cc"></i><i class="cc cc-zero"></i></a>
+                <a class="disabled active item">Except where</a>
+                <a href="/docs/tutorials/noting-copyright/" class="fitted item">otherwise noted,</a>
+              </div>
+            </div>
+            <div class="column xo paddingless marginless">
+              <div class="ui small text menu">
+                <a class="active fitted item">content on this site is dedicated to the public domain</a>
+              </div>
+            </div>
+            <div class="column">
+              <div class="ui small text right menu">
+                <a class="item" href="/terms-of-use/">Terms of Use</a>
+                <a class="item" href="/contributor-terms/">Contributor Terms</a>
+                <a class="item" href="/code-of-conduct/">Code of Conduct</a>
+                <a class="item" href="/docs/help/faq/">FAQ</a>
+                <a class="item" href="/about/contact/">Contact</a>
+              </div>
+            </div>
+            <div class="column">
+            </div>
+          </div>
+        </div> <!-- close grid container -->
+      </div>
+    </div> <!-- close legal row -->
+
+  </div> <!-- close padded grid -->
+
+</footer><!-- Google Analytics --><script src="https://www.google.com/jsapi"></script><!-- JQuery & Semantic UI --><script src="https://code.jquery.com/jquery-2.2.2.min.js" integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI=" crossorigin="anonymous"></script><script src="/semantic/dist/semantic.min.js"></script><script type="text/javascript">$('.ui.dropdown').dropdown();</script><script type="text/javascript">$('.coded-with-love').popup({inline: true,hoverable: true,position: 'top left',delay: {hide: 300}});</script><!-- Algolia search & components --><script src="https://cdn.jsdelivr.net/algoliasearch/3/algoliasearchLite.min.js"></script><script src="https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.jquery.min.js"></script><script src="https://cdn.jsdelivr.net/instantsearch.js/1/instantsearch-preact.min.js"></script><script src="https://cdn.jsdelivr.net/places.js/1/places.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/hogan.js/3.0.2/hogan.min.js"></script><link rel="stylesheet" type="text/css" href="//cloud.github.com/downloads/lafeber/world-flags-sprite/flags16.css">
+<!-- REACT --><script src="https://unpkg.com/react@15/dist/react.js"></script><script src="https://unpkg.com/react-dom@15/dist/react-dom.js"></script><!-- Semantic + React --><!-- Embeded Gitter chat --><script>((window.gitter = {}).chat = {}).options = { room: 'DIYbiosphere/sphere', activationElement: false };</script><script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script><!-- Main JS file --><script type="text/javascript" src="/assets/js/main.js"></script>
+</body>
+</html>
